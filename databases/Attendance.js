@@ -1,11 +1,11 @@
 // Creating the attendance collection
 
-Guvi> db.createCollection("attendance");
+Zen_Class_Programme> db.createCollection("attendance");
 { ok: 1 }
 
 // Inserting the values into the attendance collection
 
-Guvi> db.attendance.insertMany([
+Zen_Class_Programme> db.attendance.insertMany([
 ...     {
 ...         userId: 1,
 ...         topicId: 1,
