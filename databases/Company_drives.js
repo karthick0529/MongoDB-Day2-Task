@@ -1,11 +1,11 @@
 //Creating the collection Company Drives
 
-Guvi> db.createCollection("companyDrives");
+Zen_Class_Programme> db.createCollection("companyDrives");
 { ok: 1 }
 
 // Inserting the values into companyDrives
 
-Guvi> db.companyDrives.insertMany([
+Zen_Class_Programme> db.companyDrives.insertMany([
 ...     {
 ...         userId: 1,
 ...         driveDate: new Date("04-oct-2020"),
