@@ -1,0 +1,58 @@
+3. Find all the company drives and students who are appeared for the placement.
+
+Query:
+
+Guvi> db.companyDrives.aggregate([
+...   {$lookup:{
+...                     from:"users",
+...                     localField:"userId",
+...                     foreignField:"userId",
+...                     as:"PlacementInfo"
+... }},
+...   {$project:{
+...                     userId:1,
+...                     company:1,
+...                     driveDate:1,
+...                     "PlacementInfo.userName":1
+... }}
+... ])
+
+Answer:
+
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc8988'),
+    userId: 1,
+    driveDate: ISODate('2020-10-03T18:30:00.000Z'),
+    company: 'Google',
+    PlacementInfo: [ { userName: 'parthi' } ]
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc8989'),
+    userId: 1,
+    driveDate: ISODate('2020-10-10T18:30:00.000Z'),
+    company: 'Amazon',
+    PlacementInfo: [ { userName: 'parthi' } ]
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc898a'),
+    userId: 2,
+    driveDate: ISODate('2020-10-19T18:30:00.000Z'),
+    company: 'Guvi',
+    PlacementInfo: [ { userName: 'muthu' } ]
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc898b'),
+    userId: 3,
+    driveDate: ISODate('2020-10-24T18:30:00.000Z'),
+    company: 'Zoho',
+    PlacementInfo: [ { userName: 'karthi' } ]
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc898c'),
+    userId: 2,
+    driveDate: ISODate('2020-10-26T18:30:00.000Z'),
+    company: 'TCS',
+    PlacementInfo: [ { userName: 'muthu' } ]
+  }
+
+Guvi>
