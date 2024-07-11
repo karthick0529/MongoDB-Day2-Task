@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.attendance.aggregate([
+Zen_Class_Programme> db.attendance.aggregate([
 ...   {
 ...     $lookup: {
 ...       from: "topics",
@@ -51,4 +51,4 @@ Answer:
 
 { 'No_of_students_absent & task not submitted': 6 } 
 
-Guvi>
+Zen_Class_Programme>
