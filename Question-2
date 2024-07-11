@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.companyDrives.find({driveDate:{$gte:new Date("2020-10-15"),$lte:new Date("2020-10-31")}})
+Zen_Class_Programme> db.companyDrives.find({driveDate:{$gte:new Date("2020-10-15"),$lte:new Date("2020-10-31")}})
 
 Answer:
 
