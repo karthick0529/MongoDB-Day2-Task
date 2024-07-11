@@ -1,10 +1,11 @@
 // Creating the collection for mentor
 
-Guvi> db.createCollection("mentors");
+Zen_Class_Programme> db.createCollection("mentors");
 { ok: 1 }
+
 // Inserting the values for metors
 
-Guvi> db.mentors.insertMany([
+Zen_Class_Programme> db.mentors.insertMany([
 ...     {
 ...         mentorId: 1,
 ...         mentorName: "sathish",
