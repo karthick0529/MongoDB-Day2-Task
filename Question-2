@@ -6,6 +6,7 @@ Guvi> db.companyDrives.find({driveDate:{$gte:new Date("2020-10-15"),$lte:new Dat
 
 Answer:
 
+[
 {
     _id: ObjectId('668e36edb52b4fe80bcc898a'),
     userId: 2,
@@ -24,5 +25,6 @@ Answer:
     driveDate: ISODate('2020-10-26T18:30:00.000Z'),
     company: 'TCS'
   }
+]
 
 Guvi>
