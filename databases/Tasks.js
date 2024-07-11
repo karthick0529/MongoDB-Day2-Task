@@ -1,4 +1,4 @@
-// Creating & selecting Database
+// Using the Database
 
 use Zen_Class_Programme;
 
