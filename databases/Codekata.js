@@ -1,11 +1,11 @@
 // Creating the Codekata collection
 
-Guvi> db.createCollection("codeKata");
+Zen_Class_Programme> db.createCollection("codeKata");
 { ok: 1 }
 
 // Inserting the values into the codekata collection
 
-Guvi> db.codekata.insertMany([
+Zen_Class_Programme> db.codekata.insertMany([
 ...     {
 ...         userId: 1,
 ...         problemSolved: 13,
