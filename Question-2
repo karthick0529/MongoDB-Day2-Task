@@ -1,0 +1,28 @@
+2. Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+Query:
+
+Guvi> db.companyDrives.find({driveDate:{$gte:new Date("2020-10-15"),$lte:new Date("2020-10-31")}})
+
+Answer:
+
+{
+    _id: ObjectId('668e36edb52b4fe80bcc898a'),
+    userId: 2,
+    driveDate: ISODate('2020-10-19T18:30:00.000Z'),
+    company: 'Guvi'
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc898b'),
+    userId: 3,
+    driveDate: ISODate('2020-10-24T18:30:00.000Z'),
+    company: 'Zoho'
+  },
+  {
+    _id: ObjectId('668e36edb52b4fe80bcc898c'),
+    userId: 2,
+    driveDate: ISODate('2020-10-26T18:30:00.000Z'),
+    company: 'TCS'
+  }
+
+Guvi>
