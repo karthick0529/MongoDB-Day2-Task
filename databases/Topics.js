@@ -1,6 +1,6 @@
-// Creating & selecting Database
+// Using the Database
 
-use Guvi;
+use Zen_Class_Programme;
 
 // Creating collections for Guvi
 
