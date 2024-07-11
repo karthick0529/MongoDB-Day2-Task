@@ -1,29 +1,29 @@
 // Using the Database
 
-test> use Guvi
-switched to db Guvi
+test> use Zen_Class_Programme
+switched to db Zen_Class_Programme
 
 // Checking the collections
 
-Guvi> show collections
+Zen_Class_Programme> show collections
 product
 supplier
 
 // Query for the creating the collection users
 
-Guvi> db.createCollection("users")
+Zen_Class_Programme> db.createCollection("users")
 { ok: 1 }
 
 // Checking the collections after the creation of users collection
 
-Guvi> show collections
+Zen_Class_Programme> show collections
 product
 supplier
 users
 
 // Inserting the values for users collections
 
-Guvi> db.users.insertMany([
+Zen_Class_Programme> db.users.insertMany([
 ...     {
 ...         userId: 1,
 ...         userName: "parthi",
