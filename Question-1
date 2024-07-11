@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.topics.aggregate([
+Zen_Class_Programme> db.topics.aggregate([
 ...     {$lookup:{
 ...               from:"tasks",
 ...               localField:"topicId",
