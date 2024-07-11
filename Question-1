@@ -23,6 +23,7 @@ Guvi> db.topics.aggregate([
 
 Answer:
 
+[
   {
     topicId: 1,
     topicDate: ISODate('2020-10-09T18:30:00.000Z'),
@@ -659,5 +660,6 @@ Answer:
       }
     ]
   }
+]
 
 Guvi>
