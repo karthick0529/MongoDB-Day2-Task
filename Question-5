@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.users.aggregate([
+Zen_Class_Programme> db.users.aggregate([
 ...   {
 ...     $lookup: {
 ...       from: "mentors",
@@ -34,4 +34,4 @@ Answer:
     menteeCount: 16
 }
 
-Guvi>
+Zen_Class_Programme>
