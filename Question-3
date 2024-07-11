@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.companyDrives.aggregate([
+Zen_Class_Programme> db.companyDrives.aggregate([
 ...   {$lookup:{
 ...                     from:"users",
 ...                     localField:"userId",
@@ -57,4 +57,4 @@ Answer:
   }
 ]
 
-Guvi>
+Zen_Class_Programme>
