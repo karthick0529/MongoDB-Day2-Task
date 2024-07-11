@@ -2,7 +2,7 @@
 
 Query:
 
-Guvi> db.codekata.aggregate([
+Zen_Class_Programme> db.codekata.aggregate([
 ...   {$lookup:{
 ...                     from:"users",
 ...                     localField:"userId",
@@ -41,4 +41,4 @@ Answer:
   { problemSolved: 11, Result: [ { userName: 'arjun' } ] }
 ]
 Type "it" for more
-Guvi> 
+Zen_Class_Programme> 
