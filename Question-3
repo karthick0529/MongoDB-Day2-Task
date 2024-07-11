@@ -19,6 +19,7 @@ Guvi> db.companyDrives.aggregate([
 
 Answer:
 
+[
   {
     _id: ObjectId('668e36edb52b4fe80bcc8988'),
     userId: 1,
@@ -54,5 +55,6 @@ Answer:
     company: 'TCS',
     PlacementInfo: [ { userName: 'muthu' } ]
   }
+]
 
 Guvi>
